@@ -113,7 +113,7 @@ class Bot(object):
 
     async def playSong(self, channel):
         connection = await channel.connect()
-        audio_source = discord.FFmpegPCMAudio(executable='C:\\Users\\VojtÅ¯v dream\\Python\\Project\\ffmpeg-20200504-5767a2e-win64-static\\bin\\ffmpeg.exe', source='WDsong.mp3')
+        audio_source = discord.FFmpegPCMAudio(executable='C:\\Users\\jetamo\\Python\\Project\\ffmpeg-20200504-5767a2e-win64-static\\bin\\ffmpeg.exe', source='WDsong.mp3')
         connection.play(audio_source)
         while connection.is_playing():
             await asyncio.sleep(1)
