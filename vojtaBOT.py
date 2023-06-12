@@ -2,7 +2,7 @@ from Bot import Bot
 import discord
 
 client = discord.Client()
-TOKEN = 'ODQyODY5NjYyNzg1NzMyNjk5.YJ7liw.Q6LmvQ0UPGkk9JW8_ONExHQqpv8'
+TOKEN = '...'
 bot = Bot(client)
 bot.setMainChannel(842814547248021586)
 bot.setMemeChannel(842814829114032138)
